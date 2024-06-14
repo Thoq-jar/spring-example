@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.oxy.test.TestApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-06-14T00:35:38" hostname="fedora" time="0.464">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.oxy.test.TestApplicationTests" time="0.464"/>
+  <system-out><![CDATA[20:35:37.590 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.oxy.test.TestApplicationTests]: TestApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+20:35:37.645 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.oxy.test.TestApplication for test class com.oxy.test.TestApplicationTests
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.0)
+
+2024-06-13T20:35:37.867-04:00  INFO 46232 --- [test] [    Test worker] com.oxy.test.TestApplicationTests        : Starting TestApplicationTests using Java 17.0.11 with PID 46232 (started by tristan in /home/tristan/IdeaProjects/test)
+2024-06-13T20:35:37.868-04:00  INFO 46232 --- [test] [    Test worker] com.oxy.test.TestApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2024-06-13T20:35:38.356-04:00  INFO 46232 --- [test] [    Test worker] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2024-06-13T20:35:38.517-04:00  INFO 46232 --- [test] [    Test worker] com.oxy.test.TestApplicationTests        : Started TestApplicationTests in 0.795 seconds (process running for 1.404)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
